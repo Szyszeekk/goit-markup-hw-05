@@ -713,3 +713,14 @@ footer {
   justify-content: center;
   fill: transparent;
 }
+
+.modal-window-form-etiquette-input:checked
+  + .modal-window-form-etiquette-label-span {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
+
+.modal-window-form-etiquette-label-link {
+  color: #4d5ae5;
+}
