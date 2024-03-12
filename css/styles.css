@@ -715,7 +715,8 @@ footer {
 }
 
 .modal-window-form-etiquette-input:checked
-  + .modal-window-form-etiquette-label-span {
+  + .modal-window-form-etiquette-label
+  span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
@@ -723,4 +724,21 @@ footer {
 
 .modal-window-form-etiquette-label-link {
   color: #4d5ae5;
+}
+
+.modal-window-form-button {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  border: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin: auto;
 }
